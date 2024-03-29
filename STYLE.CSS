@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+NAV{
+    background-color: black;
+    color: white;
+    padding: 20PX;
+}
+LI,H1,UL{
+    display: inline;
+}
+UL{
+    margin-left: 60% ;
+    padding: 10PX;
+    color: darkturquoise;
+}
+LI{
+    cursor: pointer;
+}
+
+LI:hover{
+    color: white;
+}
+
+input{
+    width: 60%;
+    padding: 15PX;
+}
+
+.SEARCHBAR{
+    padding: 50PX;
+    text-align: center;
+}
+
+.BOX{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300PX;
+   
+}
+
+.BOX2{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300PX;
+    
+    
+}
+.PRODUCTS{
+    text-align: center;
+    padding: 25PX;
+}
+.BOX :hover{
+    color:aquamarine;
+    background-color: slategrey;
+    cursor: pointer;
+}
+.BOX2 :hover{
+    color:aquamarine;
+    background-color: slategrey;
+    cursor: pointer;
+    
+    
+}
+.ABOUT{
+    text-align: center;
+    padding: 30PX;
+    padding-bottom: 20PX;
+    margin-bottom: 20PX;
+}
+.CONTACT{
+    text-align: center;
+    padding: 20PX;
+    background-color:burlywood;
+    color:whitesmoke;
+}
+H4,P{
+    padding: 5PX;
+}
